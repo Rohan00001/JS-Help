@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        button {
+            padding: 8px 15px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .hidden {
+            display: none;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+        #content {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>DOM Manipulations Example</h1>
+
+    <div>
+        <button id="changeTextButton">Change Text</button>
+        <button id="changeColorButton">Change Color</button>
+        <button id="toggleVisibilityButton">Toggle Visibility</button>
+        <button id="addElementButton">Add Element</button>
+        <button id="removeElementButton">Remove Element</button>
+    </div>
+
+    <div id="content">
+        <p class="text">This is a paragraph.</p>
+        <p class="text">Another paragraph here.</p>
+        <div id="dynamicElement"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
