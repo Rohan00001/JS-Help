@@ -3,6 +3,8 @@
 // Creating an array
 const fruits = ["apple", "banana", "mango"];
 
+console.log(fruits.keys()); //Object [Array Iterator] {}
+
 // Accessing array elements using index
 console.log(fruits[0]); // Output: "apple"
 console.log(fruits[1]); // Output: "banana"

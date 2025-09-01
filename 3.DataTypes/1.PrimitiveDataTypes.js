@@ -27,6 +27,7 @@ console.log(typeof y);  // Output: "object" (this is a known JavaScript bug, whe
 // 6. **Symbol** - A unique and immutable identifier (ES6).
 const sym = Symbol("id");
 console.log(typeof sym);  // Output: "symbol"
+console.log(sym["id"]);
 
 // 7. **BigInt** - Used for very large integers beyond Number.MAX_SAFE_INTEGER.
 const bigInt = 12345678901234567890123456789012345n;
